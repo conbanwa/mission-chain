@@ -1,13 +1,12 @@
 {
-  "miniprogramRoot": "miniprogram/",
-  "cloudfunctionRoot": "cloudfunctions/",
+  "description": "ECharts 图表示例",
   "setting": {
     "urlCheck": true,
     "es6": true,
-    "enhance": true,
-    "postcss": true,
+    "enhance": false,
+    "postcss": false,
     "preloadBackgroundData": false,
-    "minified": true,
+    "minified": false,
     "newFeature": true,
     "coverView": true,
     "nodeModules": false,
@@ -21,6 +20,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
+    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -34,16 +34,14 @@
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true,
-    "useApiHostProcess": true
+    "minifyWXSS": true
   },
+  "compileType": "miniprogram",
+  "libVersion": "2.10.2",
   "appid": "wx7a4b9ebd6909baa3",
-  "projectname": "mission_chain",
-  "libVersion": "2.8.1",
+  "projectname": "ECharts%20Demo",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
-  "qqappid": "1111378023",
-  "scripts": {},
   "condition": {
     "search": {
       "list": []
@@ -51,20 +49,8 @@
     "conversation": {
       "list": []
     },
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
     "miniprogram": {
-      "list": [
-        {
-          "id": -1,
-          "name": "db guide",
-          "pathName": "pages/databaseGuide/databaseGuide"
-        }
-      ]
+      "list": []
     }
   }
 }

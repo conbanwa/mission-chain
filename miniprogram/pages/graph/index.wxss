@@ -1,0 +1,13 @@
+/**index.wxss**/
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}
+#sticky {
+  position: absolute;
+  bottom: 12%;
+  background-color:#fdd2 ;
+  z-index: 11;
+  width: 100%;
+  height: 50%;
+}

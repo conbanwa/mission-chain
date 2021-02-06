@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}"></ec-canvas>
+    </view>
+  <!-- <view id="sticky" class="before">
+  <view style="width: 60px;">前置任务</view>
+    <navigator>C21</navigator>
+    <view>后继任务</view>
+    <view class="after"></view>
+    <view colspan="2" class="content"> 旗艦「雪風」を含む合計4隻以上の駆逐艦を配備した精強な演習艦隊を編成、本日中に演習で【S判定】以上の勝利を4回以上達成せよ！ </view>
+        <view> 编成包含旗舰“雪风”总计驱逐舰4艘以上的精强演习部队，在同一日内在演习达成4次以上【S胜】！</view>
+      </view> -->
